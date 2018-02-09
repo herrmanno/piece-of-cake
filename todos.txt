@@ -1,5 +1,4 @@
-*   allow multiple instances of one controller type like <div data-controller="TodoController#1" />
-    useful if one renders multiple instances of complicated forms / component
-
 *   handle 'unmounting' of controller
     need to unsubscribe from parentcontroller change handers
+
+*   add an api.md document
