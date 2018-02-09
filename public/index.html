@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../lib/index.js"></script>
+    <script src="../lib/app.js"></script>
+</head>
+<body data-controller="TodoController">
+    <input data-id="input" oninput="onChangeValue" placeholder="what to to next?"/>
+    <button data-id="add-button" onclick="addTodo" disabled>Add</button>
+    <ul data-id="todolist"></ul>
+    <button data-id="all-button" onclick="onChangeFilter(all)" disabled>All</button>
+    <button data-id="done-button" onclick="onChangeFilter(done)">Done</button>
+    <button data-id="notdone-button" onclick="onChangeFilter(notdone)">Not Done</button>
+</body>
+</html>

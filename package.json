@@ -1,0 +1,20 @@
+{
+  "name": "piece-of-cake",
+  "version": "1.0.0",
+  "description": "JavaScript controller library",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "typings": "piece-of-cake.d.ts",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "keywords": [
+    "Controller",
+    "HTML",
+    "Event"
+  ],
+  "author": "o.herrmann92@gmail.com",
+  "license": "ISC"
+}
