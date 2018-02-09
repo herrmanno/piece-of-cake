@@ -2,3 +2,9 @@
     need to unsubscribe from parentcontroller change handers
 
 *   add an api.md document
+
+*   add license file
+
+*   think about distribute a minified js version
+
+*   adapt newer field concepts (onXXXChaged, onChange array) in readme
