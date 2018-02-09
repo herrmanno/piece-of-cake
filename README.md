@@ -160,4 +160,4 @@ class MyControllerClass extends {
 
 ## Example
 
-Just look at the [src/app.js](basic) and [src/multiple.js](advanced) to get an idea of how things work.
+Just look at the [basic](src/app.js) and [advanced](src/multiple.js) to get an idea of how things work.
