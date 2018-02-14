@@ -8,7 +8,7 @@
 
 or just include a script tag, like
 
-`<script src="https://unpkg.com/piece-of-cacke"></script>`
+`<script src="https://unpkg.com/piece-of-cake"></script>`
 
 1. Define your html like ever:
 
@@ -134,7 +134,7 @@ PieceOfCake.controllerClasses.push(MyControllerClass)
 
 ```html
     <body data-controller="MyControllerClass">
-        <!-- Nothing special with the data-attribute. But you must call it 'conrtoller', otherweise the library won't find it-- >
+        <!-- Nothing special with the data-attribute. But you must call it 'controller', otherwise the library won't find it-- >
     </body>
 ```
 
@@ -160,4 +160,4 @@ class MyControllerClass extends {
 
 ## Example
 
-Just look at the [basic](src/app.js) and [advanced](src/multiple.js) to get an idea of how things work.
+Just look at the [basic](src/example/basic.js) or [advanced](src/example/advanced.js) example script to get an idea of how things work.
